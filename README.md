@@ -8,7 +8,7 @@
 
 <p align="center">
   <a href="https://github.com/shuying-code/wallpaper-rs">
-    <img src="https://raw.githubusercontent.com/shuying-code/wallpaper-rs/main/assets/screenshot-library.png" width="72%" alt="wallpaper-rs">
+    <img src="https://raw.githubusercontent.com/shuying-code/wallpaper-rs/main/assets/screenshot-online.png?v=0.14.4" width="72%" alt="wallpaper-rs — 网上壁纸库">
   </a>
 </p>
 
@@ -17,7 +17,7 @@
 - 🖼 **本地壁纸库**：按相册分组、搜索、一键设为壁纸 / 锁屏。
 - 🌐 **网上壁纸库**：必应每日 4K · 彼岸图网 · MoeWalls · MotionBGs，可下载**原图**与**动态壁纸 MP4**。
 - 🎞 **动态壁纸**（Windows）：自建桌面宿主 + mpv 循环播放；**动态壁纸也能参与轮播**。
-- 📦 **单文件 exe 自带 mpv，开箱即用**；纯本地运行，**无登录 / 无订阅 / 无遥测**。
+- 📦 **单文件 exe 约 5 MB**（不再内置 mpv，首次用动态壁纸时**按需下载**）；纯本地运行，**无登录 / 无订阅 / 无遥测**。
 
 <p align="center">
   <a href="https://github.com/shuying-code/wallpaper-rs/releases/latest"><img alt="Release" src="https://img.shields.io/github/v/release/shuying-code/wallpaper-rs?color=blue&label=%E4%B8%8B%E8%BD%BD%E6%9C%80%E6%96%B0%E7%89%88"></a>
