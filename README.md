@@ -12,12 +12,12 @@
   </a>
 </p>
 
-**跨平台桌面壁纸软件**（Windows / macOS / Linux），用 **Rust + egui/eframe** 编写 —— 一个界面搞定 **固定壁纸 / 定时轮播 / 动态壁纸**：
+**跨平台桌面壁纸软件**（Windows / macOS / Linux），用 **Rust + egui/eframe** 编写 —— 一个界面搞定 **固定壁纸 / 定时轮播 / 动态壁纸**，**默认进入「网上壁纸库」**：
 
-- 🖼 **本地壁纸库**：按相册分组、搜索、一键设为壁纸 / 锁屏。
-- 🌐 **网上壁纸库**：必应每日 4K · 彼岸图网 · MoeWalls · MotionBGs，可下载**原图**与**动态壁纸 MP4**。
-- 🎞 **动态壁纸**（Windows）：自建桌面宿主 + mpv 循环播放；**动态壁纸也能参与轮播**。
-- 📦 **单文件 exe 约 5 MB**（不再内置 mpv，首次用动态壁纸时**按需下载**）；纯本地运行，**无登录 / 无订阅 / 无遥测**。
+- 🌐 **网上壁纸库（默认首页）**：必应每日 4K · 彼岸图网 · MoeWalls · MotionBGs，支持搜索 / 分类 / 翻页 / 收藏；可下载**原图**与**动态壁纸 MP4**，一键设为桌面 / 锁屏 / 动态壁纸。
+- 🖼 **本地壁纸库**：按相册分组、搜索，一键设为壁纸 / 锁屏；视频直接作为动态壁纸。
+- 🎞 **动态壁纸（Windows / macOS / Linux-X11）**：桌面图标层之下自建宿主 + mpv 循环播放；**动态壁纸也能参与轮播**，进入前先铺首帧、切换不闪。
+- 📦 **单文件 exe 约 5 MB**（mpv 按需下载，不内置）；纯本地运行，**无登录 / 无订阅 / 无遥测**。
 
 <p align="center">
   <a href="https://github.com/shuying-code/wallpaper-rs/releases/latest"><img alt="Release" src="https://img.shields.io/github/v/release/shuying-code/wallpaper-rs?color=blue&label=%E4%B8%8B%E8%BD%BD%E6%9C%80%E6%96%B0%E7%89%88"></a>
