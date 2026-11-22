@@ -29,6 +29,35 @@
 
 ---
 
+## 📺 新项目 · [ysp-live](https://github.com/shuying-code/ysp-live)
+
+<p align="center">
+  <a href="https://github.com/shuying-code/ysp-live">
+    <img src="https://raw.githubusercontent.com/shuying-code/ysp-live/main/ios/YspLive/Assets.xcassets/AppIcon.appiconset/AppIcon-1024.png" width="120" alt="YSP Live">
+  </a>
+</p>
+
+**Android TV / Android 手机 / iPhone 直播客户端**，用 **Rust + Kotlin + Swift** 分层实现：
+
+- 🔐 **隐藏 WebView 官方鉴权**：不伪造签名，让官方页面自己完成 `token` / `ysign` 等易变逻辑。
+- ▶️ **原生播放 + 官方回退**：Android 使用 libmpv，iOS 使用 AVPlayer；已验证频道走原生，其余保留官方页内播放器。
+- 📺 **电视与手机双体验**：D-pad 频道抽屉、当天 EPG、连续切台、后台播放；Android 提供可选 Kiosk 变体。
+- 🧩 **多语言各司其职**：Rust 负责共享校验核心，Kotlin/Swift 负责平台能力，JavaScript 只做官方页面内桥接。
+
+<p align="center">
+  <a href="https://github.com/shuying-code/ysp-live/releases/latest"><img alt="Release" src="https://img.shields.io/github/v/release/shuying-code/ysp-live?color=blue&label=%E4%B8%8B%E8%BD%BD%E6%9C%80%E6%96%B0%E7%89%88"></a>
+  <a href="https://github.com/shuying-code/ysp-live/stargazers"><img alt="Stars" src="https://img.shields.io/github/stars/shuying-code/ysp-live?color=yellow"></a>
+  <img alt="Android" src="https://img.shields.io/badge/Android-6.0%2B-3DDC84?logo=android&logoColor=white">
+  <img alt="iOS" src="https://img.shields.io/badge/iOS-17.0%2B-000000?logo=apple&logoColor=white">
+  <a href="https://github.com/shuying-code/ysp-live/blob/main/LICENSE"><img alt="License" src="https://img.shields.io/badge/license-MIT-green"></a>
+</p>
+
+➡️ **[下载最新版](https://github.com/shuying-code/ysp-live/releases/latest)**　·　**[查看源码](https://github.com/shuying-code/ysp-live)**　·　**[语言与模块选型](https://github.com/shuying-code/ysp-live/blob/main/docs/LANGUAGE_AND_MODULES.md)**
+
+> 仅用于播放器技术验证，不提供内容授权；不支持 DRM / 付费 / 地区限制绕过。
+
+---
+
 ## 🚀 其它项目
 
 | 项目 | 简介 |
@@ -40,4 +69,4 @@
 
 ---
 
-<sub>🦀 Rust · egui/eframe · 纯本地 · 无遥测</sub>
+<sub>🦀 Rust · 🤖 Kotlin · 🍎 Swift · 跨平台 · 无遥测</sub>
