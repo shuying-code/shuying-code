@@ -1,0 +1,32 @@
+name: Release Profile
+
+on:
+  workflow_dispatch:
+    inputs:
+      tag:
+        description: "Release tag to attach artifacts to (e.g. v2026.11.28)"
+        required: true
+        default: "v2026.11.28"
+
+permissions:
+  contents: write
+
+jobs:
+  package:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Package profile
+        run: |
+          set -euo pipefail
+          mkdir -p dist
+          zip -j dist/shuying-code-profile.zip README.md
+          tar -czf dist/shuying-code-profile.tar.gz README.md
+          cd dist
+          sha256sum shuying-code-profile.zip shuying-code-profile.tar.gz > SHA256SUMS.txt
+      - uses: softprops/action-gh-release@v2
+        with:
+          tag_name: ${{ inputs.tag }}
+          name: ${{ inputs.tag }}
+          generate_release_notes: true
+          files: dist/*
